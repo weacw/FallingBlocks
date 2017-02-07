@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "falling blocks game.CSharp.Plugins", "falling blocks game.CSharp.Plugins.csproj", "{33C9B2E0-8733-70D7-65F6-C357C8C13713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "falling blocks game.CSharp", "falling blocks game.CSharp.csproj", "{D936620A-B9E9-0F7A-4BC1-7402517BD2AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "falling blocks game.CSharp.Editor", "falling blocks game.CSharp.Editor.csproj", "{9A4B6A41-5596-1FA0-D649-0999AE8A14CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33C9B2E0-8733-70D7-65F6-C357C8C13713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C9B2E0-8733-70D7-65F6-C357C8C13713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C9B2E0-8733-70D7-65F6-C357C8C13713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C9B2E0-8733-70D7-65F6-C357C8C13713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D936620A-B9E9-0F7A-4BC1-7402517BD2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D936620A-B9E9-0F7A-4BC1-7402517BD2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D936620A-B9E9-0F7A-4BC1-7402517BD2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D936620A-B9E9-0F7A-4BC1-7402517BD2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4B6A41-5596-1FA0-D649-0999AE8A14CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4B6A41-5596-1FA0-D649-0999AE8A14CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4B6A41-5596-1FA0-D649-0999AE8A14CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4B6A41-5596-1FA0-D649-0999AE8A14CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
