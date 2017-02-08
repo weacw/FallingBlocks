@@ -15,7 +15,7 @@ public class GameUI : MonoBehaviour
     private void GameOver()
     {
         spawner.isStartGame = false;
-
+        spawner.isDeath = true;
         gameOverScreen.SetActive(true);
         secondsSurvivedUIText.text = Mathf.RoundToInt(FindObjectOfType<Timers>().Seconds).ToString();
     }

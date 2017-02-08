@@ -10,6 +10,7 @@ public class Spawner : MonoBehaviour
     private Vector2 screenHalfSizeWorldUnits;
     private float nextSpawnTime;
     public bool isStartGame;
+    public bool isDeath;
     // Use this for initialization
     void Start()
     {
@@ -20,7 +21,7 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isStartGame) return;
+        if (!isStartGame && !isDeath) return;
         //calculater the time to create new block gameobject
         if (!(Time.time > nextSpawnTime)) return;
         //calculater for next time
